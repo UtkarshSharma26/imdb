@@ -10,10 +10,13 @@ import java.util.List;
 @Getter
 @Setter
 public class Movie {
+    long id;
     String name;
     String plot;
+    List<Long> actorIds;
     long releaseDate;
     List<String> actors;
+    long producerId;
     String producer;
-    String posterId;
+    String poster;
 }
