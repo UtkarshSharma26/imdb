@@ -8,7 +8,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Producer {
-    long id;
     String name;
     String bio;
     long dateOfBirth;
