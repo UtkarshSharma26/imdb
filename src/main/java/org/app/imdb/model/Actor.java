@@ -8,6 +8,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Actor {
+    long id;
     String name;
     String bio;
     long dateOfBirth;
